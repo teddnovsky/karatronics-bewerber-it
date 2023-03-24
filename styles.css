@@ -1,5 +1,5 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 body {
@@ -97,7 +97,7 @@ header {
 .five-icons-unser-prozess {
 
     display: block;
-    flex-direction: row-reverse;
+    
     background-color: rgb(190, 198, 215);
 }
 
@@ -105,7 +105,8 @@ header {
     background-color: rgb(190, 198, 215);
     display: flex;
     border-radius: 25px; 
-    text-align: center;
+    text-align: left;
+    padding: 0px 150px;
     
     
 }
@@ -119,4 +120,129 @@ header {
 div#inner-boxes {
     background-color: white;
     border-radius: 25px;
+    text-align: left;
+    padding: 50px;
+}
+
+
+.ueber-uns {
+
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    display: block;
+}
+.two-icons-ueber-uns {
+
+    display: block;
+    
+}
+
+.ueber-uns-left, .ueber-uns-right {
+    display: flex;
+    border-radius: 25px; 
+    text-align: left;
+    padding: 50px 250px;
+    
+    
+}
+.ueber-uns-left {
+    flex-direction: row;
+}
+.ueber-uns-right {
+    flex-direction: row-reverse;
+}
+
+.aktuelles{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    display: block;
+    background-color: rgb(190, 198, 215);
+}
+
+div.scrollfotos {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollfotos a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 24px;
+  }
+  
+  div.scrollfotos a:hover {
+    background-color: #2e539e;
+  }
+
+  .dontwaitlong {
+
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    display: block;
+}
+
+.repeat-anmelden-freelancer{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.freelancertwo {
+
+    
+    text-align: center;
+    width: auto;
+    font-size: 24px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px; /*rounded corners on a box */
+    box-shadow: 0px 0px 20px gray; 
+    
+}
+
+.anmelden-two {
+
+    display: block;
+    text-align: left;
+    margin: auto;
+    margin-top: 100px;
+    padding: auto;
+    
+}
+
+.footer {
+
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    color: black;
+    display: block;
+}
+
+.footer-blocks{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 100px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.footer-four{
+    display: block;
+    font-size: 18px;
+    margin: 50px;
+    color: grey;
 }
