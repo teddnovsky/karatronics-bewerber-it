@@ -3,37 +3,45 @@
 }
 
 body {
-    padding: 0 auto;
-    margin: 0 auto;
+   
     background-color: white;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 auto;
 
 }
 
 header {
     display: flex;
+    flex-direction: row;
     font-size: 18px;
     color: black;
-    padding: 8 16;
-    border: 20px;
+    padding: 0 auto;
     border-color: #032657;
-    align-items: center;
+    justify-content: space-between;
     
 }
 
 .top-logo {
     height: auto;
-    width:10%;
+    max-width:100%;
+    max-width: 150px;
+    margin: auto;
   
 }
 
 .rubrik-one{
 
-    padding: auto;
-    margin: auto;
+    padding: 0 auto;
+    margin: 0 auto;
     background-color: #032657;
     text-align: center;
     margin-bottom: 10px;
     color: #EEEEEE;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
 
 
@@ -41,11 +49,9 @@ header {
 .anmelden {
     
     font-size: 28px;
-    display: flex;
-    padding-left: 50px;
-    justify-content: space-between; /*spread boxes along axis. see also align-item*/
-   
-    
+    display: block;
+    text-align: left;
+        
 }
 
 .freelancer {
@@ -53,40 +59,46 @@ header {
     background-color: white;
     color: black;
     text-align: center;
-    width: 70%;
+    max-width: 100%;
     font-size: 24px;
     margin: 48px;
     padding: 10px;
-    display: flex;
+    display: block;
     justify-content: space-between; 
     border-radius: 25px; /*rounded corners on a box */
     
 }
-  .logo-it-blau{
-    display: block;
-  }
+ 
 
 
 .deine-vorteile {
 
-    padding: auto;
-    margin: auto;
+    padding: 0 auto;
+    margin: 0 auto;
     text-align: center;
     margin-bottom: 10px;
     color: black;
     display: block;
+    justify-content: center;
 }
 
 .three-icons-deine-vorteile {
 
     display: flex;
     justify-content: center;
+    
+}
+
+#three-icons {
+
+    padding: 50px;
+    
 }
 
 .unser-prozess {
 
-    padding: auto;
-    margin: auto;
+    padding: 0 auto;
+    margin: 0 auto;
     text-align: center;
     margin-bottom: 10px;
     background-color: rgb(190, 198, 215);
@@ -127,8 +139,8 @@ div#inner-boxes {
 
 .ueber-uns {
 
-    padding: auto;
-    margin: auto;
+    padding: 0 auto;
+    margin: 0 auto;
     text-align: center;
     margin-bottom: 10px;
     color: black;
@@ -156,8 +168,8 @@ div#inner-boxes {
 }
 
 .aktuelles{
-    padding: auto;
-    margin: auto;
+    padding: 0 auto;
+    margin: 0 auto;
     text-align: center;
     margin-bottom: 10px;
     color: black;
@@ -183,8 +195,8 @@ div.scrollfotos {
 
   .dontwaitlong {
 
-    padding: auto;
-    margin: auto;
+    padding: 0 auto;
+    margin: 0 auto;
     text-align: center;
     margin-bottom: 10px;
     color: black;
@@ -195,7 +207,7 @@ div.scrollfotos {
     display: flex;
     flex-direction: row;
     text-align: left;
-    margin: auto;
+    margin: 0 auto;
     justify-content: space-around;
 }
 
@@ -203,9 +215,9 @@ div.scrollfotos {
 
     
     text-align: center;
-    width: auto;
+    max-width: 100%;
     font-size: 24px;
-    margin: auto;
+    margin: 0 auto;
     padding: 20px;
     border-radius: 25px; /*rounded corners on a box */
     box-shadow: 0px 0px 20px gray; 
@@ -216,16 +228,16 @@ div.scrollfotos {
 
     display: block;
     text-align: left;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 100px;
-    padding: auto;
+    padding: 0 auto;
     
 }
 
 .footer {
 
-    padding: auto;
-    margin: auto;
+    padding: 0 auto;
+    margin: 0 auto;
     text-align: center;
     color: black;
     display: block;
@@ -246,3 +258,10 @@ div.scrollfotos {
     margin: 50px;
     color: grey;
 }
+
+
+ img{
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+ }
